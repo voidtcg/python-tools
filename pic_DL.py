@@ -1,6 +1,9 @@
-#DO NOT ADD tailing slash!
+# DO NOT ADD tailing slash for location of files
+# The first column of the csv file is the nam eof the file
+
 import sys, os, multiprocessing, csv, urllib.request
 from os.path import basename
+
 #Reads the csv for the item number and creates the link supporting the web location
 def readgetURLs(filename):
     urls = []
